@@ -23,6 +23,7 @@ public class StackUsingQueue {
 
     public static void main(String[] args) {
         System.out.println("Implementing stacking using queue");
+        System.out.println("Make pop operating costly");
         Stack<Integer> s1 = new Stack<Integer>();
         StackUsingQueue stacks = new StackUsingQueue();
         stacks.push(12);
