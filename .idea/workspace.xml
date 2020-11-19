@@ -1,31 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="729295e0-76fb-4cec-880d-eb1d99eca2d5" name="Default Changelist" comment="Two Stack in a Single Array">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/AdjMatrixGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/AdjacentList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/Graphs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problemsolving/TwoDArrayDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/DataStructure.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/graphs/AdjMatrixGraph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/graphs/AdjacentList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/linkedList/LinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/linkedList/LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/problemsolving/TwoDArrayDS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/queue/QueueInJava.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackInJava.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingLInkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingLInkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/stack/TwoStackUsingSingleArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/trees/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/trees/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/trees/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    <list default="true" id="729295e0-76fb-4cec-880d-eb1d99eca2d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashing/CountWordsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashing/InflightEntertainment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashing/StringPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashing/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedList/CheckCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphs/AdjacentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphs/AdjacentList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphs/AdjacentList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/graphs/AdjacentList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedList/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedList/LinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedList/LinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +51,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.AdjacentList">
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration name="AdjMatrixGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.AdjMatrixGraph" />
       <module name="DataStructure" />
@@ -91,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.BinaryTree" />
+    <configuration name="CountWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.CountWordsInString" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.Test" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedList" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.*" />
+          <option name="PATTERN" value="linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.CountWordsInString" />
         <item itemvalue="Application.AdjacentList" />
         <item itemvalue="Application.AdjMatrixGraph" />
         <item itemvalue="Application.TwoDArrayDS" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -184,28 +171,44 @@
       <option name="project" value="LOCAL" />
       <updated>1605582255048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Graph implementation&#10;1) Adjacency List&#10;2) Adjacency matrix&#10;&#10;BFS and DFS traversal of Graphs">
+      <created>1605761900332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605761900332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added some commit" />
     <MESSAGE value="Two Stack in a Single Array" />
     <MESSAGE value="BST tree BFS and DFS examples&#10;1) InOrder &#10;2) Preorder&#10;3) PostOrder&#10;&#10;Level Order traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="BST tree BFS and DFS examples&#10;1) InOrder &#10;2) Preorder&#10;3) PostOrder&#10;&#10;Level Order traversal" />
+    <MESSAGE value="Graph implementation&#10;1) Adjacency List&#10;2) Adjacency matrix&#10;&#10;BFS and DFS traversal of Graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph implementation&#10;1) Adjacency List&#10;2) Adjacency matrix&#10;&#10;BFS and DFS traversal of Graphs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1605536086537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605536086537" />
+    <state x="453" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605773826097">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1605773826097" />
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1605577436272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605577436272" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1605582252491">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1605761896265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605582252491" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605761896265" />
+    <state width="388" height="466" key="DebuggerActiveHint" timestamp="1605802038716">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="388" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1605802038716" />
     <state x="553" y="262" width="261" height="204" key="Github.ShareDialog" timestamp="1605537578138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -214,30 +217,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="72" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605537601213" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1605689412981">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1605802054609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1605689412981">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605802054609" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1605802054609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1605689412981">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605802054609" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1605802054609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1605689412981">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605802054609" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1605802054609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1605582265386">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605802054609" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605801975552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605582265386" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605801975552" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605801975552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605801975552" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605801975552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605801975551" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605801975552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605801975552" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1605761903566">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605761903566" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1605752353921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605752353921" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1605778059628">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605778059628" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605780240187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605780240187" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

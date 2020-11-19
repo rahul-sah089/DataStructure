@@ -1,5 +1,6 @@
 package linkedList;
 
+import java.util.HashMap;
 import java.util.List;
 
 public class LinkedList {
@@ -21,19 +22,27 @@ public class LinkedList {
         head = newNode;
     }
 
-    public void insertatEnd(int data){
+    public void makeCycle() {
+        Node tempNode = head;
+        while (tempNode.next != null) {
+            tempNode = tempNode.next;
+        }
+        tempNode.next = head;
+    }
+
+    public void insertatEnd(int data) {
         Node newNode = new Node(data);
         //Insert at the head
-        Node tempNode =  head;
-        while(tempNode.next != null){
+        Node tempNode = head;
+        while (tempNode.next != null) {
             tempNode = tempNode.next;
         }
         tempNode.next = newNode;
         return;
     }
 
-    public void insertAtNodePosition(Node exactNode,int data){
-        if(exactNode == null){
+    public void insertAtNodePosition(Node exactNode, int data) {
+        if (exactNode == null) {
             System.out.println("The given previous node cannot be null");
             return;
         }
@@ -50,6 +59,26 @@ public class LinkedList {
         }
     }
 
+    /*
+    Check whether a linked list is cyclic or not
+    Solution: Take two pointer both starting from the head node
+    Ever time slowRunner moves one step ahead, fastRunner will moves two step ahead
+    If the list has a cycle eventually lap each other
+     */
+    public boolean checkCycle() {
+        Node slowRunner = head;
+        Node fastRunner = head;
+        while (fastRunner != null && fastRunner.next != null) {
+            slowRunner = slowRunner.next;
+            fastRunner = fastRunner.next.next;
+
+            if (slowRunner == fastRunner) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.head = new Node(1);
@@ -62,6 +91,11 @@ public class LinkedList {
         list.insertAtHead(36);
         list.insertatEnd(48);
         list.insertatEnd(60);
-        list.printList();
+        list.makeCycle();
+        boolean isCycle = list.checkCycle();
+        System.out.println("Is it cycle => "+isCycle);
+        if(!isCycle){
+            list.printList();
+        }
     }
 }

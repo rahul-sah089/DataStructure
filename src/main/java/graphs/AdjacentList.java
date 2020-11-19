@@ -27,6 +27,9 @@ public class AdjacentList {
         }
     }
 
+
+
+
     public void BFS(ArrayList<ArrayList<Integer>> adj, int initVal) {
         //get the number of vertices
         int vertices = adj.size();
