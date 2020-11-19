@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="729295e0-76fb-4cec-880d-eb1d99eca2d5" name="Default Changelist" comment="Two Stack in a Single Array">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/AdjMatrixGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/AdjacentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/Graphs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problemsolving/TwoDArrayDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/DataStructure.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/graphs/AdjMatrixGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/graphs/AdjacentList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/linkedList/LinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/linkedList/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/problemsolving/TwoDArrayDS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/queue/QueueInJava.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackInJava.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingLInkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingLInkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stack/StackUsingQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stack/TwoStackUsingSingleArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/trees/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/trees/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/trees/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\rahul.sah\Desktop\Java\spring-sample\DataStructure" />
+        <option value="C:\Users\rahul.sah\Desktop\Java\spring-sample\DataStructure\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kN3ubkAsU6lNZkZloPRAfKXQIG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.AdjacentList">
+    <configuration name="AdjMatrixGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.AdjMatrixGraph" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdjacentList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.AdjacentList" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.BinaryTree" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.Test" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoDArrayDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsolving.TwoDArrayDS" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemsolving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AdjacentList" />
+        <item itemvalue="Application.AdjMatrixGraph" />
+        <item itemvalue="Application.TwoDArrayDS" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BinaryTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="729295e0-76fb-4cec-880d-eb1d99eca2d5" name="Default Changelist" comment="" />
+      <created>1605527445885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605527445885</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added some commit">
+      <created>1605537782522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605537782522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Two Stack in a Single Array">
+      <created>1605538378804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605538378804</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BST tree BFS and DFS examples&#10;1) InOrder &#10;2) Preorder&#10;3) PostOrder&#10;&#10;Level Order traversal">
+      <created>1605582255048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605582255048</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some commit" />
+    <MESSAGE value="Two Stack in a Single Array" />
+    <MESSAGE value="BST tree BFS and DFS examples&#10;1) InOrder &#10;2) Preorder&#10;3) PostOrder&#10;&#10;Level Order traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="BST tree BFS and DFS examples&#10;1) InOrder &#10;2) Preorder&#10;3) PostOrder&#10;&#10;Level Order traversal" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1605536086537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605536086537" />
+    <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1605577436272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605577436272" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1605582252491">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605582252491" />
+    <state x="553" y="262" width="261" height="204" key="Github.ShareDialog" timestamp="1605537578138">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="262" width="261" height="204" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1605537578138" />
+    <state x="410" y="72" key="Github.UntrackedFilesDialog" timestamp="1605537601213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="410" y="72" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605537601213" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1605689412981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1605689412981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1605689412981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1605689412981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605689412981" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1605582265386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605582265386" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1605752353921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605752353921" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/trees/BinaryTree.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
