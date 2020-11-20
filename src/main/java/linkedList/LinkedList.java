@@ -41,6 +41,31 @@ public class LinkedList {
         return;
     }
 
+    //Reverse the linked list
+    /*
+    1) Iterative method
+    1) Initialize the three pointer Head as Null, curr as Head and next as Null
+    2) Iterate through the Linked List
+    a) next = current->next;
+       current->next = prev;
+       prev = current;
+       current = next;
+     */
+
+    public Node reverseLinkedList(Node head) {
+        Node current = head;
+        Node prev = null;
+        Node next = null;
+
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        return prev;
+    }
+
     public void insertAtNodePosition(Node exactNode, int data) {
         if (exactNode == null) {
             System.out.println("The given previous node cannot be null");
@@ -51,7 +76,7 @@ public class LinkedList {
         exactNode.next = newNode;
     }
 
-    public void printList() {
+    public void printList(Node head) {
         Node temp = head;
         while (temp != null) {
             System.out.print(temp.data + " >>");
@@ -93,9 +118,11 @@ public class LinkedList {
         list.insertatEnd(60);
         list.makeCycle();
         boolean isCycle = list.checkCycle();
-        System.out.println("Is it cycle => "+isCycle);
-        if(!isCycle){
-            list.printList();
+        System.out.println("Is it cycle => " + isCycle);
+        if (!isCycle) {
+            list.printList(list.head);
         }
+        list.head = list.reverseLinkedList(list.head);
+        list.printList(list.head);
     }
 }
